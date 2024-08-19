@@ -93,8 +93,8 @@ st.title('Predicción de Medicamentos')
 
 # Recoger inputs del usuario con opciones dinámicas
 edad = st.selectbox('Edad ', options=edades)
-sexo = st.selectbox('Sexo (1=Masculino, 0=Femenino)', options=sexos)
-tipo_urgencia = st.selectbox('Tipo de Urgencia (1= Urgencia Calificana, 0= Urgencia no Calificada)', options=tipos_urgencia)
+sexo = st.selectbox('Sexo (1=Masculino, 2=Femenino)', options=sexos)
+tipo_urgencia = st.selectbox('Tipo de Urgencia (1= Urgencia Calificana, 2= Urgencia no Calificada)', options=tipos_urgencia)
 afecprin = st.selectbox('Afección Principal', options=afecciones_principales)
 afec = st.selectbox('Afección Secundaria', options=afecciones_secundarias)
 
